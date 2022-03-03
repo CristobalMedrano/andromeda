@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-100">
-    <!--<AppTheNavbar />-->
+    <AppTheNavbar />
     <div class="container mx-auto">
       <Nuxt />
     </div>
