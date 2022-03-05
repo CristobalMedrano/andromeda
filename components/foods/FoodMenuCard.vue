@@ -3,15 +3,15 @@
     class="shadow-sm rounded-2xl px-2 py-1 border bg-white grid grid-cols-4 h-fit"
   >
     <div class="grid col-span-1 content-center justify-center">
-      <svg class="w-10 h-10 text-main-blue" viewBox="0 0 24 24">
+      <svg class="w-10 h-10 text-main-dark" viewBox="0 0 24 24">
         <path fill="currentColor" :d="svg" />
       </svg>
     </div>
     <div class="grid col-span-3 my-2">
-      <div class="text-left text-base font-medium text-main-blue">
+      <div class="text-left text-base font-medium text-main-dark">
         {{ title }}:
       </div>
-      <div class="text-left text-lg font-normal pr-2 text-black">
+      <div class="text-left text-lg font-normal pr-2 text-main-dark">
         {{ content }}
       </div>
     </div>

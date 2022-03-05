@@ -1,6 +1,6 @@
 <template>
   <div class="grid grid-flow-row shadow-sm rounded-2xl p-2 border bg-white">
-    <div class="mt-2 text-center text-base font-medium text-main-blue">
+    <div class="mt-2 text-center text-base font-medium text-main-dark">
       Información nutricional
     </div>
     <hr class="my-2 mx-2" />
@@ -13,7 +13,7 @@
         <div class="text-right text-base">{{ nutrient.name }}:</div>
       </div>
       <div>
-        <div class="text-left text-base font-medium text-main-blue">
+        <div class="text-left text-base font-medium text-main-dark">
           {{ nutrient.quantity }} {{ nutrient.unit.toUpperCase() }}
         </div>
       </div>
